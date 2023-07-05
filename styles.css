@@ -1,15 +1,31 @@
+
+
 body{
-    background-color:#292929;
+    background-color: #181818;
+    font-family: "Rubik", "Geologica", sans-serif ;
 }
 .navbar a {
     color:white;
-    font-size: 30px; }
-  
+    font-size: 20px; }
+
 .navbar a:active{
     color:white;
 }
 
-
+.ourlogo {
+    margin-left: 75px;
+}
+.namehead{
+    font-size: 60px;
+    font-family: "rubik", "geologica", sans-serif;
+}
+.dev {
+    font-size: 40px;
+    letter-spacing: 11px;
+}
+.shirwebdev {
+    margin-top: 200px;
+}
 
 
 
