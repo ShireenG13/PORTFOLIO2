@@ -11,43 +11,128 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Geologica&family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 
     <title>Shireen Ghazala</title>
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+    <nav class="navbar navbar-expand-sm navbar-dark">
         <div class="container">
-            <button class="navbar-toggler"
+                <div class="shirwebdev row mt-5 align-items-start">
+                    <div class="col-3 col-sm-3">
+                        <div class="d-flex">
+                            <img class="ourlogo" src="img/logo.png" width="110px" height="110px"/>
+                            <div class="align-self-center">
+                                <h3 class="namehead text-white">hireen Ghazala</h3>
+                                <h1 class="dev text-white">DEVELOPER</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="navbar-toggler mt-5"
                     type="button" 
                     data-bs-toggle="collapse" 
                     data-bs-target="#folioNavbar">
                     <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="folioNavbar"> 
-                <ul class="navbar-nav col-sm-10 offset-sm-3">
-                    <li class="nav-item active mt-5 me-5"><a href="index.html" class="nav-link active">HOME</a></li>
-                    <li class="nav-item mt-5 me-5"><a href="#aboutus" class="nav-link">ABOUT</a></li>
-                    <li class="nav-item mt-5 me-5"><a href="#menu" class="nav-link">PROJECTS</a></li>
-                    <li class="nav-item mt-5 me-4"><a href="contactus.html" class=nav-link>CONTACT</a></li>
-                </ul> 
-            </div> 
+                </button>
+                <div class="collapse navbar-collapse" id="folioNavbar"> 
+                    <ul class="navbar-nav col-sm-10 offset-sm-2">
+                        <li class="nav-item active mt-5 me-5"><a href="index.html" class="nav-link active">HOME</a></li>
+                        <li class="nav-item mt-5 me-5"><a href="#aboutus" class="nav-link">ABOUT</a></li>
+                        <li class="nav-item mt-5 me-5"><a href="#projects" class="nav-link">PROJECTS</a></li>
+                        <li class="nav-item mt-5 me-4"><a href="contactus.html" class=nav-link>CONTACT</a></li>
+                    </ul> 
+                </div> 
         </div>      
     </nav>
-
-    <div class="container">
-        <div class="shirwebdev row">
-            <div class="col-6 col-sm-12 offset-sm-2">
-                <div class="d-flex">
-                    <img class="ourlogo me-1" src="img/logo.png" width="150px" height="150px"/>
-                    <div class="align-self-center">
-                        <h3 class="namehead text-white">hireen Ghazala</h3>
-                        <p class="dev text-white">WEB DEVELOPER</p>
+    <div class="container" id="aboutus">
+        <div class="row row-content">   
+                <div class="col-sm-6 offset-sm-3 mt-5">
+                    <div class="card">
+                        <h2 class="topic mt-5">Hello! I'm <span>Shireen</span>.</h2>
+                        <div class="card-body">
+                            <dl class="row">
+                                <dd><h3>An aspiring Web Developer based in Memphis, TN.</h3></dd>
+                            </dl>
+                            <dl class="row">
+                                <dd class="col-12"><p>I use my creativity and coding chops to build the front-end of websites. I am passioante about <span>building solutions</span> and bringing <span>ideas to life</span>. I am currently seeking opportunities where I can contribute, learn and grow.</p></dd>
+                            </dl>
+                        </div>
                     </div>
+                </div>
+
+                <div class="social col-3 col-sm-3 offset-sm-2">
+                    <nav>
+                        <ul class="social list-unstyled d-none d-sm-block">
+                            <li class="mb-4"><a class="btn btn-lg btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a></li>
+                            <li class="mb-4"><a class="btn btn-lg btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a></li>
+                            <li class="mb-4"><a class="btn btn-lg btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a></li>
+                            <li class="mb-4"><a class="btn btn-lg btn-social-icon btn-github" href="https://github.com/ShireenG13"><i class="fa fa-github"></i></a></li>
+                            <li class="mb-4"><a class="btn btn-lg btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/shireen-g-b211703/"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        <div class="d-none d-sm-block col-sm-12 offset-sm-2 mt-4">
+            <div class="card" class="skillcard">
+                <div class="card-body">
+                    <dl class="row">
+                        <dd class="col-2"><button class="button">HTML5 </button></dd>
+                        <dd class="col-2"><button class="button">CSS3</button></dd>
+                        <dd class="col-2"><button class="button">SASSY CSS</button></dd>
+                        <dd class="col-2"><button class="button">BOOTSTRAP5</button></dd>
+                    </dl>
+                    <dl class="row">    
+                        <dd class="col-2"><button class="button">GIT</button></dd>
+                        <dd class="col-2"><button class="button">GITHUB</button></dd>
+                        <dd class="col-2"><button class="button">MOBILE-FIRST</button></dd>
+                        <dd class="col-2"><button class="button">ACCESSIBILITY</button></dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+        <div class="row d-sm-none mb-5">
+            <div class="social col-10">
+                    <div class="social list-unstyled">
+                        <a class="btn btn-lg btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+                        <a class="btn btn-lg btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+                        <a class="btn btn-lg btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                        <a class="btn btn-lg btn-social-icon btn-github" href="https://github.com/ShireenG13"><i class="fa fa-github"></i></a>
+                        <a class="btn btn-lg btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/shireen-g-b211703/"><i class="fa fa-linkedin"></i></a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <hr class="mb-5">
+                <h2 class="mt-5 text-center"> PROJECTS</h2>
+            </div>
+        <div class="projects row mt-5 align-items-start" id="projects">
+            <div class="col-6 col-sm-6 offset-2">
+                <img class="nucampcoffeeimg img-fluid mb-3" src="img/coffee.png"  width="400px" height="300px"/>
+            </div>
+            <div class="col-12 col-sm-4">
+                <h3 class="nucampcoffee text-white"><a href="https://nucampcoffee2313.web.app">NUCAMP COFFEE</a></h3>
+                <p>This front-end website project was built using HTML5, CSS3 and Bootstrap5. It was deployed on Google Cloud using Google Firebase.</p>
+                
+            </div>
+        </div>
+
+        <hr class="mt-5 mb-5">
                 </div>
             </div>
         </div>
     </div>
+
     <!-- Bootstrap JavaScript plugins -->
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>    
 </body>

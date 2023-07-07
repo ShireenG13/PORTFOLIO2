@@ -3,6 +3,7 @@
 body{
     background-color: #181818;
     font-family: "Rubik", "Geologica", sans-serif ;
+    color:aliceblue
 }
 .navbar a {
     color:white;
@@ -12,20 +13,104 @@ body{
     color:white;
 }
 
-.ourlogo {
-    margin-left: 75px;
-}
+
 .namehead{
-    font-size: 60px;
+    font-size: 25px;
     font-family: "rubik", "geologica", sans-serif;
 }
 .dev {
+    font-size: 10px;
+    letter-spacing:13px;
+}
+
+.shirwebdev{
+    margin-left:0px;
+}
+
+form{
+    color: whitesmoke;
+}
+
+.card{
+    background-color:#181818;
+
+    font-family: "Rubik", "Geologica", sans-serif;
+}
+
+.card button{
+    float: left;
+    width: 120%;
+    border: 2px solid white;
+    background-color: rgb(53, 52, 51) ;
+    color: white;
+    border-radius: 5px;
+    text-align:center;
+    box-shadow: 0 8px 80px 0 gray;
+    
+}
+
+.card-header button{
+    width: 20%;
+    font-size: 22px;
+    color: white;
+    box-shadow: 0 8px 80px 0 darkgray;
+    margin-bottom: 20px;
+}
+
+h2{
     font-size: 40px;
-    letter-spacing: 11px;
+    font-style:italic;
+    font-family: 'Source Code Pro', sans-serif;
+    color: white;
+    margin-left:15px;
 }
-.shirwebdev {
-    margin-top: 200px;
+
+.topic span{
+    color:#fc0853;
+}
+
+h3{
+    font-size: 30px;
+    font-style:italic;
+    font-family: 'Source Code Pro', sans-serif;
+    color: white;
+}
+
+p{
+    font-size: 20px;
+    font-style:italic;
+    font-family: 'Source Code Pro', sans-serif;
+    color: white;
+    text-align:left;
+}
+
+p span{ 
+    color:#08fdd8;
+}
+
+.social {
+    text-align: end;
+    margin-top:50px;
+    margin-left:0px;
+}
+
+.fa{
+    color: #08fdd8;
+    background-color: rgb(43, 39, 39);
+    border:white;
+}
+
+.unsocial{
+    display:inline;
 }
 
 
 
+.nucampcoffee a {
+    color: white;
+    text-decoration: none;
+}
+.projects p{
+    margin-top:40px;
+
+}
