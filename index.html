@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="styles.css">
 
     <title>Shireen Ghazala</title>
+    <link rel="icon" type="image/x-icon" href="img/shir.png">
 </head>
 
 <body>
@@ -45,23 +46,32 @@
                     <ul class="navbar-nav col-sm-10 offset-sm-2">
                         <li class="nav-item active mt-5 me-5"><a href="index.html" class="nav-link active">HOME</a></li>
                         <li class="nav-item mt-5 me-5"><a href="#aboutus" class="nav-link">ABOUT</a></li>
-                        <li class="nav-item mt-5 me-5"><a href="#projects" class="nav-link">PROJECTS</a></li>
-                        <li class="nav-item mt-5 me-4"><a href="contactus.html" class=nav-link>CONTACT</a></li>
+                        <li class="nav-item mt-5 me-5"><a href="projects.html" class="nav-link">PROJECTS</a></li>
+                        <li class="nav-item mt-5 me-4"><a href="contactus.html" class="nav-link">CONTACT</a></li>
                     </ul> 
                 </div> 
         </div>      
     </nav>
     <div class="container" id="aboutus">
         <div class="row row-content">   
-                <div class="col-sm-6 offset-sm-3 mt-5">
+                <div class="shire col-sm-3 d-none d-sm-block">
+                    <img src="img/CuteAnimated.png" width="250" height="250">
+                </div>
+                <div class="shiren col-3 d-block d-sm-none">
+                    <img src="img/CuteAnimated.png" width="250" height="250">
+                </div>
+                <div class="col-sm-6 mt-3">
                     <div class="card">
                         <h2 class="topic mt-5">Hello! I'm <span>Shireen</span>.</h2>
                         <div class="card-body">
                             <dl class="row">
                                 <dd><h3>An aspiring Web Developer based in Memphis, TN.</h3></dd>
                             </dl>
+                            <dl class="smallp row">
+                                <dd class="col-12 d-sm-none"><p>I use my creativity and coding chops to build the front-end of websites. I am passionate about bringing <span>ideas to life</span> and building <span>creative, responsive, accessible, mobile-first </span> web solutions. Currently seeking opportunities in front-end web development where I can contribute, learn and grow.</p></dd>
+                            </dl>
                             <dl class="row">
-                                <dd class="col-12"><p>I use my creativity and coding chops to build the front-end of websites. I am passioante about <span>building solutions</span> and bringing <span>ideas to life</span>. I am currently seeking opportunities where I can contribute, learn and grow.</p></dd>
+                                <dd class="col-12 d-none d-sm-block"><p>I use my creativity and coding chops to build the front-end of websites. I am passioante about bringing <span>ideas to life</span> and building <span>creative, responsive, accessible, mobile-first </span> web solutions. Currently seeking opportunities in front-end web development where I can contribute, learn and grow.</p></dd>
                             </dl>
                         </div>
                     </div>
@@ -110,30 +120,32 @@
             </div>
         </div>
     </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <hr class="mb-5">
-                <h2 class="mt-5 text-center"> PROJECTS</h2>
-            </div>
-        <div class="projects row mt-5 align-items-start" id="projects">
-            <div class="col-6 col-sm-6 offset-2">
-                <img class="nucampcoffeeimg img-fluid mb-3" src="img/coffee.png"  width="400px" height="300px"/>
-            </div>
-            <div class="col-12 col-sm-4">
-                <h3 class="nucampcoffee text-white"><a href="https://nucampcoffee2313.web.app">NUCAMP COFFEE</a></h3>
-                <p>This front-end website project was built using HTML5, CSS3 and Bootstrap5. It was deployed on Google Cloud using Google Firebase.</p>
-                
-            </div>
-        </div>
-
-        <hr class="mt-5 mb-5">
+    <hr>
+    <!-------SITE FOOTER WITH FONT-AWESOME AND BOOTSTRAP SOCIAL ICONS-->
+    <footer class="site-footer mt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-2 offset-sm-1">
+                    <ul class="list-unstyled text-center">
+                        <li><a href="index.html" class="text-white">Back To Top</a></li>
+                        <li><a href="https://www.freepik.com/search?format=search&last_filter=type&last_value=icon&query=hijabi&type=icon&page=2" class="text-white">Icon by Freepik</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-5 text-center">
+                    <h7 class="credits d-block">2023 © All Rights Reserved</h7>
+                    <h7 class="credits">Built With ❤️ by Shireen Ghazala</h7>
+                </div>
+                <div class="col-12 col-sm-4 text-center" class="contact">
+                    <a role="button" class="btn btn-link text-white" href="mailto:shireen.nu2022@gmail.com"><i class="fa fa-envelope-o"></i>shireen.nu2022@gmail.com</a><br>
+                    <a href="contactus.html" class="text-white">Contact</a>
                 </div>
             </div>
         </div>
-    </div>
+        <hr>
+    </footer>
 
     <!-- Bootstrap JavaScript plugins -->
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>    
+
 </body>
 </html>

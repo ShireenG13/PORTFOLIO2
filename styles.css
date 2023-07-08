@@ -9,10 +9,9 @@ body{
     color:white;
     font-size: 20px; }
 
-.navbar a:active{
-    color:white;
+.navbar a:hover {
+        color:#fc0853;
 }
-
 
 .namehead{
     font-size: 25px;
@@ -21,6 +20,14 @@ body{
 .dev {
     font-size: 10px;
     letter-spacing:13px;
+}
+
+.shire{
+    margin-top:120px;
+}
+
+.shiren{
+    margin-left:50px;
 }
 
 .shirwebdev{
@@ -95,9 +102,13 @@ p span{
 }
 
 .fa{
-    color: #08fdd8;
+    color: #bb98b8;
     background-color: rgb(43, 39, 39);
     border:white;
+}
+
+.fa:hover {
+    color:#08fdd8;
 }
 
 .unsocial{
@@ -112,5 +123,36 @@ p span{
 }
 .projects p{
     margin-top:40px;
+    font-size: 15px;
 
+}
+.projects h2{
+    font-family: "Rubik", "Geologica", sans-serif;
+} 
+
+.smallp p {
+    font-size:15px;
+}
+
+.projects .card{
+    border-color:aliceblue;
+    box-shadow: 10px 0px 10px 10px black;
+}
+
+.card{
+        transition:0.5s;
+        cursor:pointer;
+}
+.card-title{  
+    transition:1s;
+    cursor:pointer;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
+}
+
+.credits {
+    color:lightblue;
 }
