@@ -75,6 +75,11 @@ h2{
     color:#fc0853;
 }
 
+.city span{
+    color:#fc0853;
+}
+
+
 h3{
     font-size: 30px;
     font-style:italic;
@@ -123,22 +128,36 @@ p span{
 .projects p{
     margin-top:40px;
     font-size: 15px;
+    
 
 }
 .projects h2 {
     font-family: "Rubik", "Geologica", sans-serif;
+    color:#08fdd8;
 } 
 
 .projects h5, h6 {
     font-family: 'Source Code Pro', sans-serif;
 }
+
+.projects h5 {
+    color:#08fdd8;
+}
 .smallp p {
-    font-size:15px;
+    font-size:14px;
+    text-align: left;
+
 }
 
 .projects .card{
     border-color:aliceblue;
     box-shadow: 10px 0px 10px 10px black;
+}
+
+.projects li{
+    font-size: 12px;
+    font-family: 'Source Code Pro', sans-serif;
+
 }
 
 .card{
@@ -162,6 +181,8 @@ p span{
 .contactheading {
     font-family: "Geologica", "Rubik", sans-serif;
 }
+
 .pro{
-    margin-left:210px;
+    margin-left: 210px;
 }
+

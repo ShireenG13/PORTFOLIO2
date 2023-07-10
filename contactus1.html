@@ -21,6 +21,7 @@
         <title>Shireen's Portfolio</title>
         <link rel="icon" type="image/x-icon" href="img/shir.png">
     </head>
+
     <body>
         <nav class="navbar navbar-expand-sm navbar-dark mb-3">
             <div class="container">
@@ -53,30 +54,87 @@
             </div>      
         </nav>
         <hr>
-                <div class="row row-content align-items-center">
-                    
-                    <div class="col-12 mt-2">
-                        <h2 class="contactheading">Get In Touch</h2>
-                        <hr>
-                        <a role="button" class="btn btn-link text-white me-3" href="mailto:campsites@nucamp.co"><i class="fa fa-envelope-o"></i> shireen.nu2022@gmail.com</a><br/>
-                        <hr>
-                        <h2 class="contactheading">Let's Get Social</h2>
+
+            <div class="container">
+                <div class="row row-content">
+                    <div class="col-12">
+                        <h2 class="contactheading">Contact</h2>
                         <hr>
                     </div>
-                </div>
-                <div class="row mb-5">
-                    <div class="social col-12">
-                            <div class="social list-unstyled" style="text-align:left;">
-                                <a class="btn btn-lg btn-social-icon btn-instagram me-2" style="margin-left:30px;" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
-                                <a class="btn btn-lg btn-social-icon btn-facebook me-2" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
-                                <a class="btn btn-lg btn-social-icon btn-twitter me-2" href="https://twitter.com/GhazalaShi77090"><i class="fa fa-twitter"></i></a>
-                                <a class="btn btn-lg btn-social-icon btn-github me-2" href="https://github.com/ShireenG13"><i class="fa fa-github"></i></a>
-                                <a class="btn btn-lg btn-social-icon btn-linkedin me-2" href="https://www.linkedin.com/in/shireen-g-b211703/"><i class="fa fa-linkedin"></i></a>
+                    <div class="col-md-10">
+                        <form>
+                            <div class="row mb-3">
+                                <label for="firstName" class="col-md-2 col-form-label">First Name</label>
+                                <div class="col-md-10">
+                                    <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name" />
+                                </div>
                             </div>
-                        </nav>
+
+                            <div class="row mb-3">
+                                <label for="lastName" class="col-md-2 col-form-label">Last Name</label>
+                                <div class="col-md-10">
+                                    <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name" /> 
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <label for="areaCode" class="col-md-2 col-form-label">Contact Tel.</label>
+                                <div class="col-5 col-md-3">
+                                    <input type="tel" class="form-control" id="areaCode" name="areaCode" placeholder="Area Code"/>
+                                </div>
+                                <div class="col-7">
+                                    <input type="tel" class="form-control" name="telNum" placeholder="Tel. number"/>
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <label for="email" class="col-md-2 col-form-label">Email</label>
+                                <div class="col-md-10">
+                                    <input type="email" class="form control" id="email" name="email" placeholder="Email"/>
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <div class="col offset-md-2">
+                                    May I contact you?
+                                    <div class="form-check form-check-inline">
+                                        <input type="radio" class="form-check-input" id="contactYes" name="contactRadios" value="yes"/>
+                                        <label for="contactYes" class="form-check-label"> Yes</label>
+                                    </div> 
+                                    <div class="form-check form-check-inline">
+                                        <input type="radio" class="form-check-input" id="contactNo" name="contactRadios" value="no"/>
+                                        <label for="contactNo" class="form-check-label">No</label>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="row mb-5">
+                                <div class="offset-md-2 col-md-10">
+                                    <button type="submit" class="btn btn-danger"> Contact </button>
+                                </div>    
+                            </div>
+                        </form>
                     </div>
                 </div>
-            
+                
+                <hr>
+                <div class="row row-content align-items-center mb-2">
+                    <div class="col-sm-6">
+                        <h2 class="contactheading">Info</h2>
+                        <hr>
+                        <address>
+                            2 Way<br>
+                            Seattle, WA 98001<br>
+                            U.S.A.
+                        </address>
+                    </div>
+                    <div class="col-sm-6 mt-2 mb-5">
+                        <a role="button" class="btn btn-link text-white" href="tel:+12065551234"><i class="fa fa-phone"></i> 1-206-555-1234</a><br/>
+                        <a role="button" class="btn btn-link text-white" href="mailto:campsites@nucamp.co"><i class="fa fa-envelope-o"></i> shireen.nu2022@gmail.com</a><br/>
+                    </div>
+                </div>
+            </div>
             <!-------SITE FOOTER WITH FONT-AWESOME AND BOOTSTRAP SOCIAL ICONS-->
         <hr mb-3>
         <footer class="site-footer mt-4">
