@@ -5,13 +5,34 @@
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm run lite",
+    "watch:scss": "onchange \"css/*.scss\" -- npm run scss",
+    "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\"",
+    "start": "npm run watch:all",
+    "clean": "rimraf dist",
+    "usemin": "usemin contactus.html -d dist --htmlmin -o dist/contactus.html && usemin index.html -d dist --htmlmin -o dist/index.html && usemin projects.html -d dist --htmlmin -o dist/projects.html && usemin aboutus.html -d dist --htmlmin -o dist/aboutus.html",
+    "babel": "babel js/* -d js",
+    "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
+    "imagemin": "imagemin img/* -o dist/img",
+    "copyjs": "copyfiles -f node_modules/bootstrap/dist/js/bootstrap.bundle.js js",
+    "scss": "node-sass -o css/ css/",
+    "build": "npm run clean && npm run copyjs && npm run babel && npm run imagemin && npm run copyfonts && npm run usemin",
     "lite": "lite-server"
   },
   "author": "Shireen Ghazala",
   "license": "ISC",
   "devDependencies": {
-    "lite-server": "^2.6.1"
+    "@babel/cli": "^7.22.6",
+    "@babel/core": "^7.22.8",
+    "@babel/preset-env": "^7.22.7",
+    "copyfiles": "^2.2.0",
+    "imagemin-cli": "^5.1.0",
+    "lite-server": "^2.6.1",
+    "node-sass": "^8.0.0",
+    "onchange": "^7.0.0",
+    "parallelshell": "3.0.1",
+    "rimraf": "^3.0.2",
+    "sass": "^1.63.6",
+    "usemin-cli": "^0.6.0"
   },
   "dependencies": {
     "bootstrap": "^5.2.3",
